@@ -1,6 +1,6 @@
-let g:author  = "Gregory J. L. Tourte"
-let g:email   = "g.j.l.tourte@bristol.ac.uk"
-let g:company = "School of Geographical Sciences - The University of Bristol"
+let g:author  = ""
+let g:email   = ""
+let g:company = ""
 
 set nobackup
 set mouse=c
