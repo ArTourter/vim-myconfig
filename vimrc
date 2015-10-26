@@ -5,11 +5,16 @@ let g:company = ""
 set nobackup
 set mouse=c
 
+let g:airline_powerline_fonts = 1
+let g:seoul256_background = 233
+let g:airline#extensions#whitespace#enabled = 0
+set background=dark
+
 call plug#begin()
 
 Plug 'powerline/fonts', { 'do': 'yes\| ./install.sh' }
-Plug 'bling/vim-airline'
 Plug 'ArTourter/vim-sensible'
+Plug 'bling/vim-airline'
 
 Plug 'junegunn/seoul256.vim'
 Plug 'zeis/vim-kolor'
@@ -24,7 +29,4 @@ Plug 'lervag/vimtex'
 
 call plug#end()
 
-let g:seoul256_background = 233
 colo seoul256
-set background=dark
-let g:airline#extensions#whitespace#enabled = 0
