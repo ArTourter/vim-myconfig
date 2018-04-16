@@ -1,0 +1,42 @@
+% vim:ft=tex ts=4 sw=4 et:
+%
+% {{FILE}}
+%
+% Developed by {{NAME}} <{{EMAIL}}>
+% {{COPYRIGHT}}
+% Licensed under the terms of GNU General Public License.
+% All rights reserved.
+%
+% Changelog:
+% {{TODAY}} - created
+%
+% arara: lualatex: {shell: true, draft: true}
+% arara: biber
+%% arara: makeglossaries
+% arara: lualatex: {shell: true, draft: true}
+% arara: lualatex: {shell: true}
+%% arara: clean: {extensions: [aux, toc, bbl, run.xml, bcf, blg, out]}
+
+%
+\documentclass[11pt]{scrartcl}
+
+\usepackage{fontspec}
+\usepackage{microtype}
+
+\setmainfont{Minion Pro}
+\setsansfont{Libertinus Sans}
+\setmonofont{inconsolataN}
+
+\title{
+	{{FILE}}
+}
+\author{
+	{{NAME}} --- \texttt{{{EMAIL}}}
+}
+
+\begin{document}
+\maketitle
+
+{{CURSOR}}
+
+\end{document}
