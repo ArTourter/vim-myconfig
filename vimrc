@@ -30,6 +30,8 @@ Plug 'tibabit/vim-templates'
 
 Plug 'lervag/vimtex'
 
+Plug 'xiexinyls/vim'
+
 call plug#end()
 
 colo seoul256
