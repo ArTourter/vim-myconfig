@@ -30,7 +30,8 @@ Plug 'tibabit/vim-templates'
 
 Plug 'lervag/vimtex'
 
-Plug 'xiexinyls/vim'
+"Plug 'xiexinyls/vim'
+Plug 'ArTourter/vim-ncl'
 
 call plug#end()
 
