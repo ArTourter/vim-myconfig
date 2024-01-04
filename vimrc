@@ -33,8 +33,12 @@ Plug 'lervag/vimtex'
 "Plug 'xiexinyls/vim'
 Plug 'ArTourter/vim-ncl'
 
+Plug 'vim-scripts/kickstart.vim'
+Plug 'neilhwatson/vim_cf3'
+
 call plug#end()
 
 colo seoul256
 let g:vimtex_disable_version_warning = 1
 let g:vimtex_compiler_latexmk = {'callback' : 0}
+let g:tex_flavor = 'latex'
